@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>Register</title>
+  </head>
+  <!-- <body class = "text-center" style="background-color: #1d2a35; color:white"> -->
+    
+  <body class="text-center" style="background: linear-gradient(to right,navy,#1d2a35); color: white">
+    <!-- <div class="alert alert-dark alert-dismissible fade show " role="alert">
+      <strong>Thank You :)</strong> You have successfully registered.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div> -->
+    <div class="container">
+    <form class="form-signin" action = "thankyou.html" style = "margin: 0% 35%;">
+      <img
+        class="mb-4 my-3"
+        src="logo.jpg"
+        alt=""
+        width="72"
+        height="72"
+      />
+      <h1 class="h3 mb-3 font-weight-normal">Please Register</h1>
+      <label for = 'name'></label><input type = 'text' class = "form-control" name = "name" placeholder="Enter your Name" class = 'sr-only'>
+      <div class= "my-2"></div>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input
+        type="email"
+        id="inputEmail"
+        class="form-control"
+        placeholder="Email address"
+        required=""
+        autofocus=""
+      />
+      <!-- </div> -->
+      <div class = "my-2">
+      <label for="inputPassword" class="sr-only" >Password</label>
+      <input
+        type="password"
+        id="inputPassword"
+        class="form-control"
+        placeholder="Password"
+        required=""
+      /></div>
+      <div class = "my-2">
+        <label for="date" class="sr-only" >Date of Birth</label>
+        <input
+          type="date"
+          id="inputPassword"
+          class="form-control"
+          placeholder="Password"
+          required=""
+        /></div>
+      <div class = "my-2">
+        <input type = "number" 
+        maxlength="10" class = "form-control" required = "" id = "phone" name = 'phone' placeholder="Contact or Phone Number">
+      </div>
+      <div class = "my-2">
+       <label><h5>Gender</h5></label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="html">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="css">Female</label><br>
+      </div>
+      <div class = "my-2">
+      <label for = "country" class = "sr-only">Country</label>
+      <select id = "country"  class = "form-control" required = "" name = "country">
+        <option value = "india">Select Your Country</option>
+        <option value = "india">India</option>
+        <option value = "africa">Africa</option>
+        <option value = "pakisthan">Pakisthan</option>
+        <option value = "bangladesh">Bangladesh</option>
+        <option value = "nepal">Nepal</option>
+      </select>
+    </div>
+      
+      <button class="btn btn-lg btn-primary btn-block" type="Submit">
+        Submit
+      </button>
+
+      <p class="mt-5 mb-3 text-muted">© 2022-2023</p>
+    </form>
+  </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
